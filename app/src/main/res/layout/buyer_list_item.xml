@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+  >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/buyer_quantity"
+            android:layout_height="wrap_content"
+            android:id="@+id/buyer_bref" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/buyer_name"
+            android:layout_height="wrap_content"
+            android:id="@+id/buyer_crop_name"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <TextView
+            android:text="GMB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buyer_name"
+            android:capitalize="words"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buyer_name"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/buyer_quantity" />
+
+        <ImageView
+
+            app:srcCompat="@drawable/ic_dots"
+            android:layout_above="@+id/buyer_quantity"
+            android:layout_width="@dimen/ic_overflow_width"
+            android:layout_height="@dimen/ic_overflow_height"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_dots"
+            android:id="@+id/overflow_menu_buyer" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

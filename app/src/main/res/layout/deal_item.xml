@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:elevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/user_avatar"
+            android:id="@+id/profileDeal" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_dots"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/overflowDeal" />
+
+        <TextView
+            android:text="zulu int to GMB  "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buyer_seler_tv"
+            android:layout_alignBottom="@+id/overflowDeal"
+            android:layout_toRightOf="@+id/profileDeal"
+            android:layout_toEndOf="@+id/profileDeal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:textStyle="bold"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:text="12 sept 2017"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/overflowDeal"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/timestampDeal" />
+
+        <TextView
+            android:text="maize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/timestampDeal"
+            android:layout_alignLeft="@+id/buyer_seler_tv"
+            android:layout_alignStart="@+id/buyer_seler_tv"
+            android:id="@+id/cropNameDeal"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:text="50 tones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/buyer_seler_tv"
+            android:layout_alignStart="@+id/buyer_seler_tv"
+            android:id="@+id/quantityDeal"
+            android:layout_below="@+id/cropNameDeal" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

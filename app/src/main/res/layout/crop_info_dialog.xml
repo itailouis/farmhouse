@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            app:srcCompat="@drawable/quila"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="19dp"
+            android:src="@drawable/user_avatar"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="19dp"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:text="crop name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_toRightOf="@+id/imageView"
+            android:id="@+id/crop_info_name"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:capitalize="words"
+            tools:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:text="Summer Crop (November – June"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/crop_info_sesson"
+            android:layout_below="@+id/crop_info_name"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView" />
+
+        <TextView
+            android:text="Cereal crop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/crop_info_type"
+            android:layout_below="@+id/crop_info_sesson"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Input/ha:	     25kg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="13dp"
+            android:id="@+id/crop_info_input" />
+
+        <TextView
+            android:text="Irrigation:   200mm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_below="@+id/crop_info_input"
+            android:id="@+id/crop_info_irrigation" />
+
+        <TextView
+            android:text="Average output/ha:   12t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/crop_info_irrigation"
+            android:layout_alignLeft="@+id/crop_info_irrigation"
+            android:layout_alignStart="@+id/crop_info_irrigation"
+            android:id="@+id/textView12" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="317dp">
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:paddingTop="15dp"
+        android:background="@color/colorPrimary"
+        />
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/infection_cure_list"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="ADD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_add"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="CANCEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cancel"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</LinearLayout>

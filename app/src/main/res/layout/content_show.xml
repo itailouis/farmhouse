@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.com.milipade.talitha_koum.newfarmhouse.Activities.ShowActivity"
+    tools:showIn="@layout/activity_show">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_margin="6dp"
+
+        android:id="@+id/maintable">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:padding="5dp">
+
+            <TextView
+                android:text="Crops"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10" />
+
+            <TextView
+                android:text="Seed\n(b/ha)"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:text="Fertilizer \n (b/ha)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:text="Labour \n($/ha)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:text="Output\n(t/ha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:text="Price \n($/t)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:text="Returns\n($/ha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:text="Analyse "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/analyse"
+        android:layout_alignLeft="@+id/maintable"
+        android:layout_alignStart="@+id/maintable"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

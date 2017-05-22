@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="app.com.milipade.talitha_koum.newfarmhouse.homeActivity"
+    tools:showIn="@layout/suitablecrop">
+
+<LinearLayout
+    android:id="@+id/season_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="48dp"
+    android:weightSum="2">
+    <TextView
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Select District"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:layout_weight="1"/>
+    <Spinner
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        android:textColor="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:layout_weight="1"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/di_layout"
+        android:layout_below="@+id/season_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="48dp"
+        android:weightSum="2">
+        <TextView
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="Farming Season"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView19" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/spinner3"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+
+</LinearLayout>
+    <Button
+
+        android:layout_below="@+id/di_layout"
+        android:text="Get Crops"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:id="@+id/get_grops"
+        android:background="@color/colorPrimary"/>
+</RelativeLayout>

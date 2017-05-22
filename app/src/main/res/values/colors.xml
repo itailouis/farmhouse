@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="list_item_nav_drawer_selected_item_text_color">#6cbe4a</color>
+    <color name="contacts_pending_contact_request">#6d8794</color>
+    <color name="list_item_message_background_selected">#8c9efe</color>
+    <color name="list_item_message_background">#eee</color>
+    <color name="list_item_message_background_unread">#fff2cf</color>
+    <color name="black_overlay">#4d4e4c</color>
+    <color name="white">#0d0d0d</color>
+    <color name="grey">#cccccc</color>
+    <color name="accent_blue_1">#646464</color>
+    <color name="black">#000000</color>
+
+
+    <color name="sunshine_light_blue">#ff64c2f4</color>
+
+    <color name="blue_9_whiteout">#ff00264a</color>
+    <color name="blue_8_whiteout">#ff003569</color>
+    <color name="colorBase">#00000f</color>
+</resources>

@@ -1,0 +1,124 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Farmhouse</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Phone number</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_up"> register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_feilds">FeildsActivity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="header_menu">Quick Menu</string>
+
+    <string name="item_market">Market</string>
+    <string name="item_farmer">Farmer</string>
+    <string name="item_crop">Crops</string>
+
+    <string name="header_weather">Today\'s Weather</string>
+    <string name="date_fake">tue 19 Dec 2017</string>
+
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="farmer_title">Farmer</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_farmer">Farmer</string>
+    <string name="action_addfield">Add Field</string>
+    <string name="action_addcrop">Add Crop</string>
+    <string name="action_dairy">Dairy</string>
+
+
+    <string name="item_dairy">Dairy</string>
+
+
+    <!-- Windspeed formats -->
+    <!-- Wind in mph [CHAR LIMIT=25] -->
+    <string name="format_wind_mph">Wind: <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g></string>
+    <!-- Wind in kph [CHAR LIMIT=25] -->
+    <string name="format_wind_kmh">Wind: <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g></string>
+
+    <!-- Pressure format CHAR LIMIT=25] -->
+
+    <!-- Humidity format CHAR LIMIT=25]-->
+    <string name="market_title">Market</string>
+    <string name="action_logout">LogOut</string>
+
+    <!-- Prefs -->
+
+    <!-- Tab resources -->
+    <string name="action_view_graph">View Graph</string>
+    <string name="action_more">View More</string>
+    <string name="action_farm">Farm</string>
+    <string name="item_inverstiment">Inverstment</string>
+    <string name="gcm_defaultSenderId">gmsfarmapp</string>
+    <string name="item_notification">Notifications</string>
+    <string name="sync_account_type">farmapp.talitha_koum.com</string>
+    <string name="content_authority">com.milipade.talitha_koum.apps.farmhouse</string>
+    <string name="format_notification">Forecast: <xliff:g id="condition">%1$s</xliff:g> High: <xliff:g id="high">%2$s</xliff:g> Low: <xliff:g id="low">%3$s</xliff:g></string>
+    <string name="today">Today</string>
+    <!-- Strings related to Notification preference -->
+    <string name="pref_last_notification">last_notification</string>
+    <!-- Label for metric option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="tomorrow">Tomorrow</string>
+    <!-- Label for imperial option in temperature unit preference [CHAR LIMIT=25] -->
+
+    <!-- Key name for temperature unit preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_units_key" translatable="false">units</string>
+
+    <!-- Value in SharedPreferences for metric temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_units_metric" translatable="false">metric</string>
+
+    <!-- Value in SharedPreferences for imperial temperature unit option [CHAR LIMIT=NONE] -->
+
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default" translatable="false">94043</string>
+
+    <!-- Strings related to Notification Enabled preference -->
+    <string name="pref_enable_notifications_key" translatable="false">enable_notifications</string>
+
+    <string name="pref_enable_notifications_default" translatable="false">true</string>
+    <string name="format_full_friendly_date"><xliff:g id="month">%1$s</xliff:g>, <xliff:g id="day">%2$s</xliff:g></string>
+
+    <!-- Strings for formatting weather-related data -->
+    <!-- Temperature format [CHAR LIMIT=5 -->
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+
+    <string name="title_activity_chat_fullscreen">ChatFullscreenActivity</string>
+    <string name="open_weather_maps_app_id">ce25f6697c653da0309ba733432da6bf</string>
+
+    <string name="weather_sunny">&#xf00d;</string>
+    <string name="weather_clear_night">&#xf02e;</string>
+
+    <string name="weather_foggy">&#xf014;</string>
+    <string name="weather_cloudy">&#xf013;</string>
+    <string name="weather_rainy">&#xf019;</string>
+    <string name="weather_snowy">&#xf01b;</string>
+    <string name="weather_thunder">&#xf01e;</string>
+    <string name="weather_drizzle">&#xf01c;</string>
+
+    <string name="place_not_found">Sorry, no weather data found.</string>
+    <string name="na">sample me</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_productivity">ProductivityActivity</string>
+</resources>
